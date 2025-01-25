@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Xchainj</title>
+    <script>
+      if (localStorage.getItem('theme-storage') !== null) {
+        const themeData = JSON.parse(localStorage.getItem('theme-storage'));
+        if (!themeData.state.isDarkMode) {
+          document.documentElement.classList.remove('dark');
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+      :root {
+        --primary-accent: #D7FF50;
+        --primary-light: #F2FFD7;
+        --dark: #121212;
+        --dark-secondary: #383838;
+        --dark-charcoal: #2D2D2D;
+        --neutral-warm: #F9F9F9;
+        --accent-purple: #5C50D7;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--neutral-warm);
+        color: var(--dark-charcoal);
+        transition: background-color 0.2s, color 0.2s;
+      }
+
+      .dark body {
+        background-color: var(--dark);
+        color: var(--neutral-warm);
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.2s;
+      }
+
+      .dark .container {
+        background-color: var(--dark-charcoal);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+
+      h1, h2, h3 {
+        color: var(--accent-purple);
+      }
+
+      .dark h1, .dark h2, .dark h3 {
+        color: var(--primary-accent);
+      }
+
+      p, li {
+        line-height: 1.6;
+        margin-bottom: 1rem;
+        color: var(--dark-charcoal);
+        opacity: 0.8;
+      }
+
+      .dark p, .dark li {
+        color: var(--neutral-warm);
+      }
+
+      ul {
+        padding-left: 1.5rem;
+      }
+
+      a {
+        color: var(--accent-purple);
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+
+      .dark a {
+        color: var(--primary-accent);
+      }
+
+      a:hover {
+        opacity: 0.8;
+      }
+
+      .home-link {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.375rem;
+        font-weight: 500;
+        transition: background-color 0.2s;
+      }
+
+      .home-link:hover {
+        background-color: rgba(92, 80, 215, 0.1);
+      }
+
+      .dark .home-link:hover {
+        background-color: rgba(215, 255, 80, 0.1);
+      }
+
+      .home-link svg {
+        margin-right: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="/" class="home-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m12 3-8 6v12h16V9z"/>
+        </svg>
+        Back to Home
+      </a>
+
+      <h1>Privacy Policy</h1>
+      <p>Last updated: January 04, 2025</p>
+
+      <h2>Introduction</h2>
+      <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
+
+      <h2>Interpretation and Definitions</h2>
+      <h3>Interpretation</h3>
+      <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+
+      <!-- Rest of the privacy policy content -->
+      [Previous privacy policy content]
+    </div>
+  </body>
+</html>
